@@ -6,18 +6,18 @@ from umqtt.simple import MQTTClient
 import urequests
 
 # Wi-Fi credentials
-SSID = "AAL_HOUSE"
-PASSWORD = "Sm@rtTH0usE21"
+SSID = "SSID"
+PASSWORD = "WIFI_PASS"
 
 # MQTT Broker details
-MQTT_BROKER = "10.10.30.200"
+MQTT_BROKER = "BROKER"
 MQTT_PORT = 1883
 MQTT_TOPIC = "home/door_lab"
 MQTT_CLIENT_ID = ubinascii.hexlify(unique_id()).decode()
 
 # Telegram bot credentials
-BOT_TOKEN = "7718187066:AAFNaTtwokEmNeP6V1WisLnPqh2ShWyz2y4"  # Replace with your Telegram Bot Token
-CHAT_ID = "7427164267"  # Replace with your Telegram Chat ID
+BOT_TOKEN = "............................."  # Replace with your Telegram Bot Token
+CHAT_ID = "................"  # Replace with your Telegram Chat ID
 TELEGRAM_API = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
 
 # GPIO Pin for reed switch
